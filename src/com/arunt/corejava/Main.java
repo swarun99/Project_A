@@ -12,11 +12,13 @@ public class Main {
         Thread t21 = new Thread( new TestThread(), "t3");
         Thread t3 = new Thread( new TestThread(), "t4");
         Thread t4 = new Thread( new TestThread(), "t5");
+        Thread t5 = new Thread(new TestThread(), "t51");
 
         t.start();
         t2.start();
         t21.start();
         t3.start();
         t4.start();
+        t5.start();
     }
 }
